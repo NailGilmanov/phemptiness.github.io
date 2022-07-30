@@ -1,0 +1,52 @@
+.headerlinks {
+    color: black;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+Link {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.header_wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__section {
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headerlogo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.burgericon {
+    display: none;
+}
+
+.burger_icon {
+    width: 7vw;
+}

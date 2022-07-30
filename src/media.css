@@ -1,0 +1,44 @@
+.app {
+    padding-top: 90px;
+}
+
+@media (max-width: 630px) { 
+    .nav {
+        display: none;
+    }
+  
+    .headerlogo {
+        font-size: 8vw;
+    }
+  
+    .burgericon {
+        display: block;
+    }
+  
+    .header_wrapper {
+        padding: 2vw;
+        justify-content: center;
+    }
+  
+    .homepicture {
+        background-size: cover;
+        background-position: center center;
+    }
+  
+    .home_wrapper {
+        /* margin-top: 100px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 7px;
+        display: block;
+    }
+  
+    .footer_wrapper {
+        margin-top: 200px;
+        margin-bottom: 260px;
+    }
+  
+    .helpbar {
+        display: block;
+    }
+}

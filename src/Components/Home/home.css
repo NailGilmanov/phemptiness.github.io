@@ -1,0 +1,72 @@
+.home_wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+        "pic1 pic2 pic2"
+        "pic3 pic3 pic4"
+        "pic8 pic5 pic5"
+        "pic6 pic6 pic9"
+    ;
+}
+
+.homepic {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.pic1 { grid-area: pic1; }
+.pic2 { grid-area: pic2; }
+.pic3 { grid-area: pic3; }
+.pic4 { grid-area: pic4; }
+.pic5 { grid-area: pic5; }
+.pic6 { grid-area: pic6; }
+.pic7 { grid-area: pic7; }
+.pic8 { grid-area: pic8; }
+.pic9 { grid-area: pic9; }
+
+@media (max-width: 630px) { 
+  
+    .nav {
+        display: none;
+    }
+  
+    .headerlogo {
+        font-size: 8vw;
+    }
+  
+    .burgericon {
+        display: block;
+    }
+  
+    .header_wrapper {
+        padding: 2vw;
+        justify-content: center;
+    }
+  
+    .homepicture {
+        background-size: cover;
+        background-position: center center;
+    }
+  
+    .home_wrapper {
+        /* margin-top: 100px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 7px;
+        display: block;
+    }
+  
+    .footer_wrapper {
+        margin-top: 200px;
+        margin-bottom: 260px;
+    }
+  
+    .helpbar {
+        display: block;
+    }
+}
