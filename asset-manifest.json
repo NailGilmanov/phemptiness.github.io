@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/phemptiness.github.io/static/css/main.48591123.css",
+    "main.js": "/phemptiness.github.io/static/js/main.8d139f85.js",
+    "static/js/787.e4b99604.chunk.js": "/phemptiness.github.io/static/js/787.e4b99604.chunk.js",
+    "index.html": "/phemptiness.github.io/index.html",
+    "main.48591123.css.map": "/phemptiness.github.io/static/css/main.48591123.css.map",
+    "main.8d139f85.js.map": "/phemptiness.github.io/static/js/main.8d139f85.js.map",
+    "787.e4b99604.chunk.js.map": "/phemptiness.github.io/static/js/787.e4b99604.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48591123.css",
+    "static/js/main.8d139f85.js"
+  ]
+}
