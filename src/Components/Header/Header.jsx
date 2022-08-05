@@ -30,7 +30,7 @@ const Header = () => {
             <div id='header_wrapper' className="header_wrapper">
                 <div className="header__section">
                     <div onClick={openMenu} className="header__item burgericon">
-                        <img id='header' className='burger_icon' src="images/burger-bar.png" alt="burger bar"></img>
+                        <img id='header' className='burger_icon' src="phemptiness.github.io/images/burger-bar.png" alt="burger bar"></img>
                     </div>
                     <div className="header__item headerlogo">
                         PH EMPTINESS

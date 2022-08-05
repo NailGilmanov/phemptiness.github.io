@@ -1,0 +1,35 @@
+.home_wrapperr1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+}
+
+.homepicture1 {
+    position: relative;
+    height: 40vw;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.homepic1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.homepicture1:hover .homepic1 {
+    transform: scale(1.1);
+}
+
+@media (max-width: 500px) { 
+    .home_wrapperr1 {
+        grid-template-columns: repeat(auto-fit, minmax(90vw, 1fr));
+    }
+    
+    .homepicture1 {
+        height: 90vw;
+    }
+}

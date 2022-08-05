@@ -9,6 +9,7 @@ import Works from './Components/Works/Works'
 import Street from './Components/Street/Street'
 import Individual from "./Components/Individual/Individual";
 import Events from "./Components/Events/Events";
+import Self from './Components/Self/Self'
 import {
   BrowserRouter as Router,
   Routes ,
@@ -33,6 +34,7 @@ function App() {
               <>
                 < Carousel />
                 < Home />
+                < Contact />
               </>
             } >
             </Route>
@@ -60,8 +62,13 @@ function App() {
               </>
             } >
             </Route>
+            <Route path="/works/self" element={
+              <>
+                < Self />
+              </>
+            } >
+            </Route>
           </Routes >
-          < Contact />
           < Helpbar />
           < ScrollBtn />
         </div>

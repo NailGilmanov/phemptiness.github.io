@@ -41,6 +41,7 @@ header {
 .headerlogo {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .burgericon {

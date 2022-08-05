@@ -12,19 +12,19 @@ const Carousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="3000">
-                    <img src="images/slider_1.jpg" className="d-block w-100" alt="..."></img>
+                    <img src="phemptiness.github.io/images/slider_1.jpg" className="d-block w-100" alt="..."></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h2>МЕРОПРИЯТИЯ</h2>
                     </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
-                    <img src="images/slider_2.jpg" className="d-block w-100" alt="..."></img>
+                    <img src="phemptiness.github.io/images/slider_2.jpg" className="d-block w-100" alt="..."></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h2>ИНДИВИДУАЛЬНЫЕ ФОТОСЕССИИ</h2>
                     </div>
                 </div>
                 <div className="carousel-item" data-bs-interval="3000">
-                    <img src="images/slider_3.jpg" className="d-block w-100" alt="..."></img>
+                    <img src="phemptiness.github.io/images/slider_3.jpg" className="d-block w-100" alt="..."></img>
                     <div className="carousel-caption d-none d-md-block">
                         <h2>СТРИТ</h2>
                     </div>

@@ -25,6 +25,6 @@ export default function ScrollBtn() {
   }
 
   return (
-    <div onClick={skipToStart} style={{ opacity: showScroll ? '1' : '0' }} className="scroll-top"><img src="images/up-arrow.png" alt="up-arrow"/></div>
+    <div onClick={skipToStart} style={{ opacity: showScroll ? '1' : '0' }} className="scroll-top"><img src="phemptiness.github.io/images/up-arrow.png" alt="up-arrow"/></div>
   )
 }

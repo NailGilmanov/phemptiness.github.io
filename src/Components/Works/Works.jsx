@@ -1,30 +1,63 @@
-import React from 'react'
-import "./works.css?1234567"
-import { Link } from 'react-router-dom'
+import React from 'react';
+import './works.css?1234567';
+import { Link } from 'react-router-dom';
 
-import '../../media.css?123456'
+import '../../media.css?123456';
 
 export default function Works() {
   return (
     <div className="home">
-        <div className="home_wrapperrr">
-          <div className="home__box">
-            <div className="homepicture pic"><img className='home__box__pic homepic' src='images/picture3.jpg' alt="pic1"></img></div>
-            <h1 className='titles'>СТРИТ</h1> 
-            <Link to="/works/street"><h5 className='add-info'>Посмотреть больше</h5></Link>
+      <div className="home_wrapperrr">
+        <div className="home__box">
+          <div className="homepicture pic">
+            <img
+              className="home__box__pic homepic"
+              src="phemptiness.github.io/images/picture3.jpg"
+              alt="pic1"></img>
           </div>
-          <div className="home__box">
-            <div className="homepicture pic"><img className='home__box__pic homepic' src='images/slider_2.jpg' alt="pic1"></img></div>
-            <h1 className='titles'>ИНДИВИДУАЛЬНЫЕ ФОТОСЕССИИ</h1>
-            <Link to="/works/individual"><h5 className='add-info'>Посмотреть больше</h5></Link>
-          </div>
-          <div className="home__box">
-            <div className="homepicture pic"><img className='home__box__pic homepic' src='images/slider_1.jpg' alt="pic1"></img></div>
-            <h1 className='titles'>МЕРОПРИЯТИЯ</h1>
-            <Link to="/works/events"><h5 className='add-info'>Посмотреть больше</h5></Link>
-          </div>
+          <h1 className="titles">СТРИТ</h1>
+          <Link to="street">
+            <h5 className="add-info">Посмотреть больше</h5>
+          </Link>
         </div>
-        {/* <h1>СТРИТ</h1>
+        <div className="home__box">
+          <div className="homepicture pic">
+            <img
+              className="home__box__pic homepic"
+              src="phemptiness.github.io/images/slider_2.jpg"
+              alt="pic1"></img>
+          </div>
+          <h1 className="titles">ИНДИВИДУАЛЬНЫЕ ФОТОСЕССИИ</h1>
+          <Link to="individual">
+            <h5 className="add-info">Посмотреть больше</h5>
+          </Link>
+        </div>
+        <div className="home__box">
+          <div className="homepicture pic">
+            <img
+              className="home__box__pic homepic"
+              src="phemptiness.github.io/images/slider_1.jpg"
+              alt="pic1"></img>
+          </div>
+          <h1 className="titles">МЕРОПРИЯТИЯ</h1>
+          <Link to="events">
+            <h5 className="add-info">Посмотреть больше</h5>
+          </Link>
+        </div>
+        <div className="home__box">
+          <div className="homepicture pic">
+            <img
+              className="home__box__pic homepic"
+              src="phemptiness.github.io/images/picture15.jpg"
+              alt="pic1"></img>
+          </div>
+          <h1 className="titles">АВТОПОРТРЕТЫ</h1>
+          <Link to="self">
+            <h5 className="add-info">Посмотреть больше</h5>
+          </Link>
+        </div>
+      </div>
+      {/* <h1>СТРИТ</h1>
         <div className="home_wrapperr"> 
             <div className="homepicture pic"><img className='homepic' src='images/picture3.jpg' alt="pic1"></img></div>
             <div className="homepicture pic"><img className='homepic' src='images/picture12.jpg' alt="pic2"></img></div>
@@ -66,5 +99,5 @@ export default function Works() {
             <div className="homepicture pic"><img className='homepic' src='images/slider_1.jpg' alt="pic9"></img></div>
         </div><br /><br /> */}
     </div>
-  )
+  );
 }
